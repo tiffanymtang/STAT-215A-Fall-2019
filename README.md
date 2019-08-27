@@ -52,7 +52,7 @@ The current tentative dates for the labs are as follows:
 | Redwood trees                  | September 6   | September 20 (2 weeks)  | September 27               |
 | Linguistic Survey              | September 27  | October 11 (2 weeks)    | October 18                 |
 | Stability of Linguistic Survey | October 15    | October 25 (1.5 weeks)  | (graded by Tiffany)        |
-| *Midterm*                      | October 31    |                         | (graded by Tiffany)        |
+| *Midterm*                      | October 31    |                         |                            |
 | Cloud detection (group project)| November 1    | November 15 (2 weeks)   | (graded by Tiffany)        |
 | fMRI (final project)           | November 15   | December 8 (3 weeks)    | (graded by Tiffany)        |
 
@@ -143,11 +143,13 @@ lab1/
 
 - The `homework.pdf` file will contain your completed homework. Please do not include any irrelevant files.
 
+- The `documents/` folder will contain any relevant papers or documents for the project.
+
 Note that GitHub cannot host files more than 100 MB. If you try to push a file larger than this, GitHub will cry.
 
 When you are ready, you need to add, commit, and push the `lab1/` folder.
 
-At the time when the lab is due, I will run a script that automatically pulls all of your assignments into my local versions of your `stat-215-a` repositories. Please make sure to submit your labs on time. We will spend some time in a lab having everyone submit a pretend assignment so that you are all clear on what to do.
+At the time when the lab is due, I will run a script that automatically pulls all of your assignments into my local versions of your `stat-215-a` repositories. Please make sure to submit your labs on time. We will spend some time in the first lab having everyone submit a pretend assignment so that you are all clear on what to do.
 
 ## Peer-grading
 
