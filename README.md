@@ -4,6 +4,9 @@ This is the github repository for STAT 215A, Fall 2019.
 
 Thanks to Zoe Vernon, Rebecca Barter, and other past GSI's for sharing their material with me. This document was originally written by Rebecca for STAT 215A in the Fall of 2017 and has been slightly modified in subsequent years.
 
+Questions and discussions between students can be posted on Piazza ([signup link](https://piazza.com/berkeley/fall2019/stat215a)). That way everyone else can see your questions and the answers, and we don't have to answer the same questions a million billion times. Preferably you will answer eachother's questions. It is our intention to only jump in when the question is one that only we can answer.
+
+Please think carefully before asking questions specifically about the projects. For example, questions concerning how to do something specific in R (e.g. "how do I convert a list of lists to a long-form data frame?") are fine, but questions asking what other people did for their analysis are not (e.g. "what are some findings that people have come across in the Redwood project?"). Questions asking about clarifications are fine.
 
 # Class times
 
@@ -42,7 +45,7 @@ We will also be using Git and GitHub a lot in this course. Here are some resourc
 
 There will be 4-5 lab reports throughout the semester. These reports are a *big deal*. It is in completing these reports that the real learning happens. You will get to apply what you've learned in the lectures and labs to real datasets (with real issues). You will also learn to develop a narrative that reports your scientific findings as accurately and accessibly as possible: you will learn to tell a story with your analysis.
 
-While you are allowed to discuss the projects with one another, each student must work on and hand in their own report.
+While you are allowed to discuss the projects with one another, each student must work on and hand in their own report. If you do consult with other students, please acknowledge these students in your lab reports. 
 
 
 The current tentative dates for the labs are as follows:
@@ -89,11 +92,11 @@ Your report and code will be submitted via GitHub. The following instructions wi
 
 Once you have completed these first steps, you are then ready to create your private GitHub repository for this class.
 
-1. Locally on your machine, clone my STAT-215A-Fall-2019 repository: `git clone https://github.com/tiffanymtang/STAT-215A-Fall-2019`. This will create a copy of the repository on your own computer.
+1. Locally on your machine, clone my stat-215-a repository: `git clone https://github.com/tiffanymtang/stat-215-a`. This will create a copy of the repository on your own computer.
 
 1. On the GitHub website, log in and create a **private** remote repository called *stat-215-a*. Add me (*tiffanymtang*) as a collaborator for this repository (check out settings on the repo website).
 
-1. Back in the terminal, set the origin of your local repository to be the remote repository that you just made: `git remote set-url origin https://github.com/USERNAME/stat-215-a.git` (Change USERNAME below to your username). This tells git which remote repository to push your changes to when you `git push`.
+1. Back in the terminal, change directories to the stat-215-a folder and set the origin of your local repository to be the remote repository that you just made: `git remote set-url origin https://github.com/USERNAME/stat-215-a.git` (Change USERNAME below to your username). This tells git which remote repository to push your changes to when you `git push`.
 
 1. Edit *info.txt* to reflect your own information.
 
