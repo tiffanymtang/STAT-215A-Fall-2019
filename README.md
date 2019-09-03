@@ -22,7 +22,7 @@ Fridays, 10-12, Evans 344
 
 *Bin*: TBA
 
-*Tiffany*: TBA
+*Tiffany*: Mondays 10-12, Thursdays 9-11, Evans 428
 
 
 
