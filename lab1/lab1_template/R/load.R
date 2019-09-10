@@ -60,7 +60,7 @@ loadDatesData <- function(path = "data/") {
                          day = epoch_days)
   
   # remove the files created above
-  system(paste0("rm ", path, "sonoma-dates-epoch*"))
+  # system(paste0("rm ", path, "sonoma-dates-epoch*"))
   
   return(epoch_df)
 }
