@@ -20,7 +20,7 @@ Fridays, 10-12, Evans 344
 
 **Office Hours**:
 
-*Bin*: TBA
+*Bin*: Tuesdays 1:30-2:30, Thursdays 2-3, Evans 409
 
 *Tiffany*: Mondays 10-12, Thursdays 9-11, Evans 428
 
