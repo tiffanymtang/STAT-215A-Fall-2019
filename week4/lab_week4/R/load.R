@@ -1,5 +1,3 @@
-library(TCGA2STAT)
-library(TCGAbiolinks)
 library(tidyverse)
 
 loadBRCAData <- function() {
@@ -10,6 +8,8 @@ loadBRCAData <- function() {
   #  -Y = n x K data matrix of clinical responses
   
   if (!file.exists("./data/tcga_brca.Rdata")) {
+    require(TCGA2STAT)
+    require(TCGAbiolinks)
     brca_orig <- getTCGA(disease = "BRCA", 
                          data.type = "mRNA_Array", clinical = T)
     
