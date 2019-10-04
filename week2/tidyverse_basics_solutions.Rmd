@@ -368,7 +368,7 @@ str(iris_long)
 ```{r spread}
 # long to wide
 iris_wide <- iris_long %>% 
-  gather(key = "Variable", value = "Value")
+  spread(key = "Variable", value = "Value")
 
 # top 
 head(iris_wide)
