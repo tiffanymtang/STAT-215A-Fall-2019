@@ -72,7 +72,7 @@ str(result_df)
 
 # with parallelization and concatenation of results 
 ptm <- proc.time()  # start timer
-result <- foreach(i = 1:nSub, .combine = "c") %dopar% {
+result <- foreach(i = 1:nSub, .combine = "c", .packages = c("randomForest")) %dopar% {
   cat('Starting ', i, 'th job.\n', sep = '')
   output <- looFit(i, Y, X)
   cat('Finishing ', i, 'th job.\n', sep = '')
