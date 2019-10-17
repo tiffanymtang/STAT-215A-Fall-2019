@@ -34,6 +34,7 @@ ggplot(plt_df) +
                aes(x = long, y = lat, group = group),
                colour = "black", fill = NA) +
   scale_color_viridis(direction = -1, begin = 0.05, end = 0.97) +
+  coord_fixed(ratio = 1.3) +  # so map doesn't get distorted
   my_map_theme
 
 
@@ -67,5 +68,6 @@ ggplot(plt_df) +
                aes(x = long, y = lat, group = group),
                colour = "black", fill = NA) +
   scale_color_viridis() +
+  coord_fixed(ratio = 1.3) +  # so map doesn't get distorted
   my_map_theme
 
