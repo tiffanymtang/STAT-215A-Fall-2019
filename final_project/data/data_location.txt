@@ -1,0 +1,5 @@
+The extra files fit_stim.csv and real_wav.csv are too large to upload to GitHub.
+
+They can be found on Google drive at the following link: https://drive.google.com/drive/folders/1KxoIfxEEAfPcswqtAyUFN9JU6J0CLDE-?usp=sharing
+
+Be careful not to upload this data to GitHub when submitting your project. GitHub will get upset and you will have to do fancy things to revert your attempted commit.
